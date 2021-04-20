@@ -7,7 +7,7 @@ public class BuildScript {
         options.scenes = new[]{
             "Assets/EmptyScene.unity"
         };
-        options.locationPathName = "Build/Dev/game";
+        options.locationPathName = "Build/Dev/headless-unity-example";
         options.target = BuildTarget.StandaloneLinux64;
         options.options = BuildOptions.None;
 
