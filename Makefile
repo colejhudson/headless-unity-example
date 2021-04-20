@@ -7,7 +7,6 @@ UFLAGS := \
 	-logFile /dev/stdout \
 	-projectPath $(PWD) \
 	-executeMethod BuildScript.Build \
-	-destinationPath $(PWD)/Build/Dev \
 	-quit
 
 .PHONY: build
